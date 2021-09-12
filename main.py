@@ -360,7 +360,7 @@ while True:
 	if "score" in current_location:
 		score = score + current_location["score"]
 			
-	# Death assisted by my friend Jake (Not an IU student)
+	# Death 
 	if response == "FIGHT" and score < 30:
 		print("Without the treasures, you are slain by the dragon.")
 		location_label = "The Altar"
